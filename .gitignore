@@ -1,0 +1,27 @@
+# Fichiers et dossiers temporaires Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Fichiers de configuration et caches d'éditeurs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Données de test et sorties locales
+test/
+*.tmp
+*.log
+
+# Archives générées localement
+*.zip
+
+# Fichiers système
+.DS_Store
+Thumbs.db

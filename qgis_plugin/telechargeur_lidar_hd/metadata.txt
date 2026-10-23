@@ -1,0 +1,17 @@
+[general]
+name=Téléchargeur LiDAR HD
+qgisMinimumVersion=3.10
+qgisMaximumVersion=3.99
+description=Téléchargement automatisé des dalles MNT LiDAR HD 0m50 de l'IGN, assemblage VRT et carroyage vectoriel.
+version=1.1.0
+author=Aguirre MAURIN
+email=aguirre.maurin@murena.io
+about=Extension permettant d'automatiser le calcul et le téléchargement des dalles altimétriques MNT LiDAR HD 0m50 diffusées par l'IGN via la Géoplateforme. Supporte le découpage par couche vectorielle ou par emprise personnalisée, la compression GeoTIFF sans perte, la génération de rasters virtuels avec ombrage et la création de carroyages d'assemblage GeoPackage.
+tracker=https://github.com/a-maurin/Telechargeur-LiDAR-HD/issues
+repository=https://github.com/a-maurin/Telechargeur-LiDAR-HD
+homepage=https://github.com/a-maurin/Telechargeur-LiDAR-HD
+category=Raster
+tags=lidar,mnt,dem,ign,elevation,relief,geoplateforme,wms
+icon=icon.png
+experimental=False
+deprecated=False
