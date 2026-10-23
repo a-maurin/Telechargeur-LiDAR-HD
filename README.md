@@ -1,6 +1,6 @@
 # Téléchargeur LiDAR HD
 
-Le Téléchargeur LiDAR HD est une solution complète permettant d'automatiser la recherche, le téléchargement et l'assemblage des dalles altimétriques de modèles numériques de terrain (MNT) à haute résolution (0,50 mètre) produites par l'IGN et diffusées sur la Géoplateforme.
+Le Téléchargeur LiDAR HD permet d'automatiser la recherche, le téléchargement et l'assemblage des dalles altimétriques de modèles numériques de terrain (MNT) à haute résolution (0,50 mètre) produites par l'IGN et diffusées sur la Géoplateforme.
 
 Le projet propose à la fois une extension graphique pour le logiciel SIG QGIS et un script exécutable en ligne de commande pour les traitements automatisés.
 
