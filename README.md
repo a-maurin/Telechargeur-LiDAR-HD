@@ -8,10 +8,10 @@ Le projet propose à la fois une extension graphique pour le logiciel SIG QGIS e
 
 L'outil simplifie l'exploitation des données altimétriques LiDAR HD en évitant les démarches manuelles d'interrogation et de téléchargement dalle par dalle :
 
-* **Découpage spatial précis** : sélection automatique des dalles d'un kilomètre de côté intersectant une couche vectorielle active ou une emprise géographique définie.
-* **Téléchargement optimisé** : interrogation des services de l'IGN Géoplateforme avec gestion de la reprise sur erreur, contrôle de validité des dalles reçues et compression sans perte (GeoTIFF DEFLATE).
-* **Intégration fluide dans QGIS** : exécution en tâche de fond asynchrone évitant tout gel de l'interface, assortie d'une barre de progression détaillée et d'un bouton d'annulation immédiate.
-* **Assemblage cartographique immédiat** : génération automatique d'un raster virtuel (fichier VRT) fusionnant l'ensemble des dalles du secteur, avec création optionnelle d'un ombrage du relief pour une lecture morphologique instantanée.
+* **Découpage spatial** : sélection automatique des dalles d'un kilomètre de côté intersectant une couche vectorielle active ou une emprise géographique définie.
+* **Téléchargement** : interrogation des services de l'IGN Géoplateforme avec gestion de la reprise sur erreur, contrôle de validité des dalles reçues et compression sans perte (GeoTIFF DEFLATE).
+* **Intégration dans QGIS** : exécution en tâche de fond asynchrone évitant tout gel de l'interface, assortie d'une barre de progression détaillée et d'un bouton d'annulation immédiate.
+* **Assemblage cartographique** : génération automatique d'un raster virtuel (fichier VRT) fusionnant l'ensemble des dalles du secteur, avec création optionnelle d'un ombrage du relief pour une lecture morphologique instantanée.
 * **Suivi et contrôle vectoriel** : export d'une couche vectorielle au format GeoPackage matérialisant le carroyage officiel des dalles et leur état de complétude.
 * **Mode console autonome** : script Python indépendant permettant d'intégrer la chaîne de traitement dans des scripts batch ou des serveurs sans interface graphique.
 
@@ -71,7 +71,7 @@ python3 telecharger_mnt_lidar.py --emprise minx miny maxx maxy --sortie ./dossie
 
 Des options complémentaires permettent d'indiquer un fichier vectoriel en entrée, de filtrer le niveau de compression et de demander l'assemblage VRT.
 
-## Licence et citation
+## Licence
 
 Ce programme est un logiciel libre distribué sous licence **GNU General Public License v3 (GPL-3.0)**.
 
